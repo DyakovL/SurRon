@@ -8,6 +8,6 @@
 
         public string Color { get; set; } = string.Empty;
 
-        public ModelType Model { get; set; } 
+        public ModelType Model { get; set; } = null!;
     }
 }

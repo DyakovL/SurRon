@@ -4,9 +4,9 @@
     {
         public int Id { get; set; }
 
-        public IEnumerable<Motorcycle> Motorcycles { get; set; }
+        public IEnumerable<Motorcycle> Motorcycles { get; set; } = null!;
 
-        public IList<Client> Clients { get; set; } 
-            = new List<Client>();
+        public IList<User> Users { get; set; } 
+            = new List<User>();
     }
 }

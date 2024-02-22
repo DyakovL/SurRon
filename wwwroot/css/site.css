@@ -1,5 +1,7 @@
 html {
     font-size: 14px;
+    color: white
+
 }
 
 @media (min-width: 768px) {
@@ -22,12 +24,6 @@ body {
     font-weight: bold;
 }
 
-body header {
-}
-
-.navbar {
-}
-
 .bg-white {
     --bs-bg-opacity: 0;
 }
@@ -45,15 +41,31 @@ footer {
 }
 
 #mediaPlayer {
-    position: fixed;
+    background-position: center;
+    display: block;
+    background-size: cover;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    opacity: 0.5;
+    opacity: 1;
     z-index: -1;
 }
 
-.h1 {
+#homePageDiv h1{
+    padding-top: 20px;
     font-weight: 900;
+    color: white;
+}
+
+#homePageDiv p {
+    font-family: 
+    font-family: cursive;
+    color: white;
+}
+
+#navbar a,li, button{
+    color: white;
 }

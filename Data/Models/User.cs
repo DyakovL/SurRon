@@ -1,6 +1,6 @@
 ﻿namespace SurRon.Data.Models
 {
-    public class Client
+    public class User
     {
         public int Id { get; set; }
 
