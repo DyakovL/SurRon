@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\Media\\Videos\\promoVid_Tryout.mp4"
     },
     {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\HomeView.css",
+      "PackagePath": "staticwebassets\\css\\HomeView.css"
+    },
+    {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.css",
+      "PackagePath": "staticwebassets\\css\\LoginView.css"
+    },
+    {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\RegisterView.css",
+      "PackagePath": "staticwebassets\\css\\RegisterView.css"
+    },
+    {
       "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

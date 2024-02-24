@@ -1,0 +1,7 @@
+﻿body {
+    background: black;
+}
+
+#navbar a, li, button {
+    color: white;
+}
