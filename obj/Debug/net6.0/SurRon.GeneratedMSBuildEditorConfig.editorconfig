@@ -46,12 +46,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\# WEB/SurRon/Views/Event/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Event/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Event/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Event/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Event/Joined.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSm9pbmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\# WEB/SurRon/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\# WEB/SurRon/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/C\# WEB/SurRon/Views/Motorcycle/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Motorcycle/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\# WEB/SurRon/Views/Shared/Error.cshtml]

@@ -4096,6 +4096,37 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "SurRon.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SurRon.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SurRon.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SurRon.Core.dll": {}
+        }
+      },
+      "SurRon.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.27",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.27",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.27",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.27",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.27",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/SurRon.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SurRon.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -11481,6 +11512,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "SurRon.Core/1.0.0": {
+      "type": "project",
+      "path": "../SurRon.Core/SurRon.Core.csproj",
+      "msbuildProject": "../SurRon.Core/SurRon.Core.csproj"
+    },
+    "SurRon.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SurRon.Infrastructure/SurRon.Infrastructure.csproj",
+      "msbuildProject": "../SurRon.Infrastructure/SurRon.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11491,7 +11532,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.27",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
+      "SurRon.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11526,7 +11568,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C# WEB\\SurRon.Core\\SurRon.Core.csproj": {
+              "projectPath": "D:\\C# WEB\\SurRon.Core\\SurRon.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

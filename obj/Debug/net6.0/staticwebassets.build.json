@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gO5SCI+miDDY4Oje82INV7UxSMftE5nW2IfgqaSjB/g=",
+  "Hash": "2Tk9FtCDeHs4X2dQ5tqqy5mLlJ20io4OwxqERMarjl0=",
   "Source": "SurRon",
   "BasePath": "_content/SurRon",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\css\\StyleForAllViews.css",
+      "SourceId": "SurRon",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# WEB\\SurRon\\wwwroot\\",
+      "BasePath": "_content/SurRon",
+      "RelativePath": "css/StyleForAllViews.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleForAllViews.css"
     },
     {
       "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\favicon.ico",

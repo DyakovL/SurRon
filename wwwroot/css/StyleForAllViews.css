@@ -1,0 +1,56 @@
+﻿body {
+    background: black;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.form-group {
+    padding-top: 1.5rem;
+}
+
+#navbar a, li, form > button, label{
+    color: yellow;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.55rem 0.5rem;
+    clear: both;
+    font-weight: 700;
+    color: yellow;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu {
+    background: transparent;
+    border: none;
+}
+
+#logoutButton {
+    color: yellow;
+}
+
+h2 {
+    color: white;
+}
+
+h5, h6 {
+    color: yellow
+}
+
+.card.col-4 {
+    border-color: yellow;
+    background-color: black;
+}

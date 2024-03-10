@@ -1,13 +1,16 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SurRon.Data;
+using SurRon.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<SurRonDbContext>(options =>
+    options.UseSqlServer
+        (connectionString, 
+            b => b.MigrationsAssembly("SurRon.Infrastructure")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
@@ -17,7 +20,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         options.Password.RequireUppercase = true;
         options.Password.RequireNonAlphanumeric = false;
     })
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<SurRonDbContext>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

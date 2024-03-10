@@ -35,10 +35,34 @@
     color: white;
 }
 
-#navbar a, li, button {
-    color: white;
+#navbar a, li, form > button {
+    color: yellow;
 }
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.55rem 0.5rem;
+    clear: both;
+    font-weight: 700;
+    color: yellow;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu {
+    background: transparent;
+    border: none;
+}
+
 
 body {
     background: black;
+}
+
+#logoutButton {
+    color: yellow;
 }

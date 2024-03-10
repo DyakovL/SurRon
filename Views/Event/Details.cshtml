@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model SurRon.Models.Events.EventDetailsModel
+@{
+    ViewBag.Title = "Event Details";
+}
+
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="row">
+    <div class="card w-100">
+        <div class="card-body">
+            <h3 class="card-title text-center">@Model.Name</h3>
+            <p class="mb-0"><span class="fw-bold">Starting Time: </span>@Model.Date</p>
+            <p class="mb-0"><span class="fw-bold">Seminar Duration: </span>@Model.Location</p>
+            <p class="mb-0"><span class="fw-bold">Lecturer: </span>@Model.Description</p>
+        </div>
+
+        <a asp-controller="Event" asp-action="All" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Back to All Seminars</a>
+        @if (User?.Identity?.Name == Model.Organizer)
+        {
+            <a asp-controller="Event" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Edit</a>
+            <a asp-controller="Event" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger mb-2 w-100 p-3 fw-bold">Delete</a>
+        }
+
+    </div>
+</div>
+
+<link href="@Url.Content("~/css/StyleForAllViews.css")" rel="stylesheet" type="text/css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

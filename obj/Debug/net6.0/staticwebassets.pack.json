@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\RegisterView.css"
     },
     {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\StyleForAllViews.css",
+      "PackagePath": "staticwebassets\\css\\StyleForAllViews.css"
+    },
+    {
       "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

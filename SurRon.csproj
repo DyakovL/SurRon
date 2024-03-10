@@ -18,8 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\NewFolder\" />
     <Folder Include="wwwroot\Media\Pictures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SurRon.Core\SurRon.Core.csproj" />
   </ItemGroup>
 
 </Project>
