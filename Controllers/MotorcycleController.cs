@@ -3,7 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using SurRon.Infrastructure.Data;
 using SurRon.Models.Motorcycles;
 using System.Security.Claims;
-using SurRon.Data.Models;
+using SurRon.Data;
+using SurRon.Infrastructure.Data.Models;
 using SurRon.Models.MotorcycleTypes;
 
 namespace SurRon.Controllers

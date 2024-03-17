@@ -1,4 +1,4 @@
-﻿using SurRon.Data.Models;
+﻿using SurRon.Data;
 using SurRon.Infrastructure.DataConstants;
 
 namespace SurRon.Models.Motorcycles

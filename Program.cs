@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SurRon.Data;
@@ -20,8 +21,18 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         options.Password.RequireUppercase = true;
         options.Password.RequireNonAlphanumeric = false;
     })
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<SurRonDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddRazorPages();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+});
 
 var app = builder.Build();
 

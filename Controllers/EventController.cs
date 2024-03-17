@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SurRon.Data.Models;
+using SurRon.Data;
 using SurRon.Infrastructure.Data;
 using SurRon.Models.Events;
 using System.Security.Claims;
+using SurRon.Infrastructure.Data.Models;
 
 namespace SurRon.Controllers
 {
