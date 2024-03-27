@@ -9,6 +9,12 @@
 <h2 class="text-center">@ViewBag.Title</h2>
 <hr />
 
+<form asp-controller="Motorcycle" asp-action="Search" method="get">
+    <p style="padding-bottom: 2rem; padding-top: 1rem; color: yellow">
+        <input style="background: black; border-color: yellow; color: white" type="text" name="searchString" placeholder="Search by VIN" />
+        <input style="background: yellow; font-weight: bold" type="submit" value="Search" />
+    </p>
+</form>
 
 <div class="text-center row">
     @foreach (var m in Model)

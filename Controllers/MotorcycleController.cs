@@ -3,9 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using SurRon.Infrastructure.Data;
 using SurRon.Models.Motorcycles;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SurRon.Data;
 using SurRon.Infrastructure.Data.Models;
+using SurRon.Infrastructure.DataConstants;
 using SurRon.Models.MotorcycleTypes;
+using SurRon.Models.SoldMotorcycles;
 
 namespace SurRon.Controllers
 {
@@ -67,6 +70,153 @@ namespace SurRon.Controllers
             await _data.SaveChangesAsync();
 
             return RedirectToAction(nameof(All));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var e = await _data.Motorcycles
+                .FindAsync(id);
+
+            if (e == null)
+            {
+                return BadRequest();
+            }
+
+            var model = new MotorcycleFormViewModel()
+            {
+                Vin = e.Vin,
+                Color = e.Color,
+                Engine = e.Engine,
+                MotorcycleTypeId = e.MotorcycleTypeId
+            };
+
+            model.MotorcycleType = await GetMotorcycleTypes();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(MotorcycleFormViewModel model, int id)
+        {
+            var e = await _data.Motorcycles
+                .FindAsync(id);
+
+            if (e == null)
+            {
+                return BadRequest();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                model.MotorcycleType = await GetMotorcycleTypes();
+            }
+
+            e.Vin = model.Vin;
+            e.Color = model.Color;
+            e.Engine = model.Engine;
+            e.MotorcycleTypeId = model.MotorcycleTypeId;
+
+            await _data.SaveChangesAsync();
+
+            return RedirectToAction(nameof(All));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Search(string searchString)
+        {
+            var motors = await _data.Motorcycles
+                .Where(m => m.Vin == searchString)
+                .AsNoTracking()
+                .Select(m => new MotorcycleViewModel(
+                    m.Id,
+                    m.Vin,
+                    m.Color,
+                    m.Engine,
+                    m.MotorcycleType.Name,
+                    m.Uploader.UserName
+                ))
+                .ToListAsync();
+
+            if (motors.Count == 0)
+            {
+                return RedirectToAction(nameof(All));
+            }
+
+            return View(motors);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Sell(int id)
+        {
+            var m = await _data.Motorcycles
+                .FindAsync(id);
+
+            if (m == null)
+            {
+                return BadRequest();
+            }
+
+            var model = await _data.Motorcycles
+                .Where(x => x.Id == id)
+                .Select(m => new MotorcycleSellViewModel()
+                {
+                    Id = id,
+                    Name = "",
+                    DateTime = DateTime.Now,
+                    Address = "",
+                    City = "",
+                    Country = "",
+                    Vin = m.Vin,
+                    Engine = m.Engine,
+                    Color = m.Color,
+                    MotorcycleType = m.MotorcycleType.Name
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Sell(MotorcycleSellViewModel model, int id)
+        {
+            var m = await _data.Motorcycles
+                .Where(x => x.Id == id)
+                .Include(x => x.SellerMotorcycles)
+                .FirstOrDefaultAsync();
+
+            if (m == null)
+            {
+                return BadRequest();
+            }
+            
+            var soldModel = new SoldMotorcycles()
+            {
+                Name = model.Name,
+                Vin = model.Vin,
+                Engine = model.Engine,
+                DateSold = model.DateTime,
+                City = model.City,
+                Address = model.Address,
+                Country = model.Country,
+                Color = model.Color,
+                MotorcycleTypeId = m.MotorcycleTypeId
+            };
+            
+            await _data.SoldMotorcycles.AddAsync(soldModel);
+
+            //var sm = _data.SellersMotorcycles
+            //    .FirstOrDefaultAsync(sm => sm.MotorcycleId == m.Id);
+
+            //if (sm != null)
+            //{
+            //    _data.SellersMotorcycles.Remove(sm);
+            //}
+
+            _data.Motorcycles.Remove(m);
+            await _data.SaveChangesAsync();
+
+            return RedirectToAction("All", "SoldMotorcycles");
         }
 
         private string GetUserId()

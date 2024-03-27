@@ -27,12 +27,12 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages();
 
-builder.Services.AddAuthorization(options =>
-{
-    options.FallbackPolicy = new AuthorizationPolicyBuilder()
-        .RequireAuthenticatedUser()
-        .Build();
-});
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+//        .RequireAuthenticatedUser()
+//        .Build();
+//});
 
 var app = builder.Build();
 

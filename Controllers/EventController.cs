@@ -46,8 +46,6 @@ namespace SurRon.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(EventFormViewModel model)
         {
-            
-
             var entity = new Event()
             {
                 Name = model.Name,

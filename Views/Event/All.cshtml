@@ -16,11 +16,11 @@
     {
         <div class="card col-4" style="width: 20rem; ">
             <div class="card-body">
-                <h4 class="card-title mt-1">@e.Name</h4>
+                <h5 class="card-title mt-1">@e.Name</h5>
                 <h5 class="card-title mt-1">@e.Location</h5>
                 <h5 class="card-title mt-1">@e.Organizer</h5>
                 <h5 class="card-title mt-1">@e.Description</h5>
-                <p class="mb-0"><span class="fw-bold">Starting Time: </span>@e.Date</p>
+                <h6 class="mb-0"><span class="fw-bold">Starting Time: </span>@e.Date</h6>
             </div>
 
             <a asp-controller="Event" asp-action="Details" asp-route-id="@e.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Details</a>
