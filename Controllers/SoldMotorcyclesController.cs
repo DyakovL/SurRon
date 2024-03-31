@@ -2,8 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using SurRon.Infrastructure.Data;
 using SurRon.Models.Motorcycles;
+using SurRon.Models.MotorcycleTypes;
 using SurRon.Models.SoldMotorcycles;
 using System.Security.Claims;
+using SurRon.Infrastructure.Data.Models;
 
 namespace SurRon.Controllers
 {
@@ -68,6 +70,48 @@ namespace SurRon.Controllers
             return View(motors);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Add()
+        {
+            var model = new SoldMotorcycleFormViewModel();
+            model.MotorcycleType = await GetMotorcycleTypes();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(SoldMotorcycleFormViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.MotorcycleType = await GetMotorcycleTypes();
+            }
+
+            var entity = new SoldMotorcycles()
+            {
+                Name = model.Name,
+                Address = model.Address,
+                City = model.City,
+                Country = model.Country,
+                DateSold = model.DateSold,
+                Vin = model.Vin,
+                Color = model.Color,
+                Engine = model.Engine,
+                MotorcycleTypeId = model.MotorcycleTypeId,
+                UploaderId = GetUserId()
+            };
+
+            if (_data.SoldMotorcycles.Contains(entity))
+            {
+                return BadRequest();
+            }
+
+            await _data.SoldMotorcycles.AddAsync(entity);
+            await _data.SaveChangesAsync();
+
+            return RedirectToAction(nameof(All));
+        }
+
         //[HttpGet]
         //public async Task<IActionResult> SellItem()
         //{
@@ -77,6 +121,18 @@ namespace SurRon.Controllers
         private string GetUserId()
         {
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+        }
+
+        private async Task<IEnumerable<MotorcycleTypeView>> GetMotorcycleTypes()
+        {
+            return await _data.MotorcycleTypes
+                .AsNoTracking()
+                .Select(m => new MotorcycleTypeView()
+                {
+                    Id = m.Id,
+                    Name = m.Name
+                })
+                .ToListAsync();
         }
     }
 }

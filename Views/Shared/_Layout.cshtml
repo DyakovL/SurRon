@@ -53,6 +53,15 @@
                                     <li><a class="dropdown-item" asp-area="" asp-action="All" asp-controller="SoldMotorcycles">All</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="False">
+                                    Inventory
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-area="" asp-action="All" asp-controller="Inventory">All</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-action="Add" asp-controller="Inventory">Add</a></li>
+                                </ul>
+                            </li>
                         }
                     </ul>
                     <partial name="_LoginPartial" />

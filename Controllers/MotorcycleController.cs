@@ -66,6 +66,11 @@ namespace SurRon.Controllers
                 MotorcycleTypeId = model.MotorcycleTypeId
             };
 
+            if (_data.Motorcycles.Contains(entity))
+            {
+                return BadRequest();
+            }
+
             await _data.Motorcycles.AddAsync(entity);
             await _data.SaveChangesAsync();
 
