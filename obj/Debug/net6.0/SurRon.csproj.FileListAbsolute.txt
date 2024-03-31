@@ -250,7 +250,6 @@ D:\C# WEB\SurRon\obj\Debug\net6.0\staticwebassets.pack.json
 D:\C# WEB\SurRon\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\C# WEB\SurRon\obj\Debug\net6.0\scopedcss\bundle\SurRon.styles.css
 D:\C# WEB\SurRon\obj\Debug\net6.0\scopedcss\projectbundle\SurRon.bundle.scp.css
-D:\C# WEB\SurRon\obj\Debug\net6.0\SurRon.csproj.CopyComplete
 D:\C# WEB\SurRon\obj\Debug\net6.0\SurRon.dll
 D:\C# WEB\SurRon\obj\Debug\net6.0\refint\SurRon.dll
 D:\C# WEB\SurRon\obj\Debug\net6.0\SurRon.pdb
@@ -289,3 +288,4 @@ D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Core.dll
 D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Infrastructure.dll
 D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Core.pdb
 D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Infrastructure.pdb
+D:\C# WEB\SurRon\obj\Debug\net6.0\SurRon.csproj.Up2Date

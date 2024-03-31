@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SurRon.Infrastructure.Data;
 using SurRon.Infrastructure.Data.Models;
 using SurRon.Models.Inventory;
+using SurRon.Models.Motorcycles;
 
 namespace SurRon.Controllers
 {
@@ -54,6 +55,28 @@ namespace SurRon.Controllers
             await _data.SaveChangesAsync();
 
             return RedirectToAction(nameof(All));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Search(string searchString)
+        {
+            var items = await _data.Inventory
+                .Where(i => i.Name == searchString)
+                .AsNoTracking()
+                .Select(i => new InventoryViewModel(
+                    i.Id,
+                    i.Name,
+                    i.Price,
+                    i.Amount
+                ))
+                .ToListAsync();
+
+            if (items.Count == 0)
+            {
+                return RedirectToAction(nameof(All));
+            }
+
+            return View(items);
         }
 
         [HttpGet]

@@ -27,7 +27,7 @@ namespace SurRon.Models.Motorcycles
 
         public string MotorcycleType { get; set; } = string.Empty;
 
-
+        public bool Warranty { get; set; }
 
     }
 }

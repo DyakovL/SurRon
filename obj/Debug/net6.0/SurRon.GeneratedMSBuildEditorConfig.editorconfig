@@ -86,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\# WEB/SurRon/Views/Inventory/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\# WEB/SurRon/Views/Motorcycle/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -128,6 +132,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\# WEB/SurRon/Views/SoldMotorcycles/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZE1vdG9yY3ljbGVzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/SoldMotorcycles/SellItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZE1vdG9yY3ljbGVzXFNlbGxJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/SoldMotorcycles/Warranty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZE1vdG9yY3ljbGVzXFdhcnJhbnR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\# WEB/SurRon/Views/_ViewImports.cshtml]

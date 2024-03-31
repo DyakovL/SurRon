@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers;
+@model IEnumerable<SurRon.Models.Inventory.InventoryViewModel>
+
+@{
+    ViewBag.Title = "Inventory";
+}
+
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<form asp-controller="Inventory" asp-action="Search" method="get">
+    <p style="padding-bottom: 2rem; padding-top: 1rem; color: yellow">
+        <input style="background: black; border-color: yellow; color: white" type="text" name="searchString" placeholder="Search by Name" />
+        <input style="background: yellow; font-weight: bold" type="submit" value="Search" />
+    </p>
+</form>
+
+<div class="text-center row">
+    @foreach (var m in Model)
+    {
+        <div class="card col-4" style="width: 20rem">
+            <div class="card-body">
+                <h5 class="card-title mt-1">@m.Name</h5>
+                <h6 class="card-title mt-1">Amount: @m.Amount</h6>
+                <h6 class="card-title mt-1"> Price: @m.Price</h6>
+            </div>
+            <a asp-controller="Inventory" asp-action="Edit" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Edit</a>
+            <a asp-controller="Inventory" asp-action="Sell" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Sell</a>
+            <a asp-controller="Inventory" asp-action="Delete" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Delete</a>
+        </div>
+
+
+
+    }
+</div>
+
+<link href="@Url.Content("~/css/StyleForAllViews.css")" rel="stylesheet" type="text/css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

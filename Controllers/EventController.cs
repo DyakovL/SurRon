@@ -5,6 +5,7 @@ using SurRon.Infrastructure.Data;
 using SurRon.Models.Events;
 using System.Security.Claims;
 using SurRon.Infrastructure.Data.Models;
+using SurRon.Models.Motorcycles;
 
 namespace SurRon.Controllers
 {
@@ -87,6 +88,37 @@ namespace SurRon.Controllers
 
             return View(model);
         }
+
+        //[HttpGet]
+        //public async Task<IActionResult> Sell(int id)
+        //{
+        //    var m = await _data.Motorcycles
+        //        .FindAsync(id);
+
+        //    if (m == null)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    var model = await _data.Motorcycles
+        //        .Where(x => x.Id == id)
+        //        .Select(m => new MotorcycleSellViewModel()
+        //        {
+        //            Id = id,
+        //            Name = "",
+        //            DateTime = DateTime.Now,
+        //            Address = "",
+        //            City = "",
+        //            Country = "",
+        //            Vin = m.Vin,
+        //            Engine = m.Engine,
+        //            Color = m.Color,
+        //            MotorcycleType = m.MotorcycleType.Name
+        //        })
+        //        .FirstOrDefaultAsync();
+
+        //    return View(model);
+        //}
 
         [HttpPost]
         public async Task<IActionResult> Edit(EventFormViewModel model, int id)

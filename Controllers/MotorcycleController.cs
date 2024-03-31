@@ -88,13 +88,21 @@ namespace SurRon.Controllers
                 return BadRequest();
             }
 
-            var model = new MotorcycleFormViewModel()
+            var model = await _data.Motorcycles
+                .Where(x => x.Id == id)
+                .Select(m => new MotorcycleFormViewModel()
+                {
+                    Vin = m.Vin,
+                    Color = m.Color,
+                    Engine = m.Engine,
+                    MotorcycleTypeId = m.MotorcycleTypeId
+                })
+                .FirstOrDefaultAsync();
+
+            if (model == null)
             {
-                Vin = e.Vin,
-                Color = e.Color,
-                Engine = e.Engine,
-                MotorcycleTypeId = e.MotorcycleTypeId
-            };
+                return BadRequest();
+            }
 
             model.MotorcycleType = await GetMotorcycleTypes();
 
@@ -205,19 +213,13 @@ namespace SurRon.Controllers
                 Address = model.Address,
                 Country = model.Country,
                 Color = model.Color,
-                MotorcycleTypeId = m.MotorcycleTypeId
+                MotorcycleTypeId = m.MotorcycleTypeId,
+                Warranty = true,
+                UploaderId = GetUserId()
             };
             
             await _data.SoldMotorcycles.AddAsync(soldModel);
-
-            //var sm = _data.SellersMotorcycles
-            //    .FirstOrDefaultAsync(sm => sm.MotorcycleId == m.Id);
-
-            //if (sm != null)
-            //{
-            //    _data.SellersMotorcycles.Remove(sm);
-            //}
-
+        
             _data.Motorcycles.Remove(m);
             await _data.SaveChangesAsync();
 

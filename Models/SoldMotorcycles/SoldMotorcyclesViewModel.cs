@@ -13,7 +13,8 @@
             string color,
             string engine,
             string motorcycleTypes,
-            string uploader)
+            string uploader,
+            bool warranty)
         {
             Id = id;
             Name = name;
@@ -26,6 +27,7 @@
             Engine = engine;
             MotorcycleType = motorcycleTypes;
             Uploader = uploader;
+            Warranty = warranty;
         }
 
         public int Id { get; set; }
@@ -50,5 +52,7 @@
         public string MotorcycleType { get; set; }
 
         public string Uploader { get; set; }
+
+        public bool Warranty { get; set; }
     }
 }

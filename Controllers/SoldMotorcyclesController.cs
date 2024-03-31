@@ -6,6 +6,7 @@ using SurRon.Models.MotorcycleTypes;
 using SurRon.Models.SoldMotorcycles;
 using System.Security.Claims;
 using SurRon.Infrastructure.Data.Models;
+using SurRon.Models.Inventory;
 
 namespace SurRon.Controllers
 {
@@ -34,7 +35,8 @@ namespace SurRon.Controllers
                     m.Color,
                     m.Engine,
                     m.MotorcycleType.Name,
-                    m.Uploader.UserName
+                    m.Uploader.UserName,
+                    m.Warranty
                 ))
                 .ToListAsync();
 
@@ -58,7 +60,8 @@ namespace SurRon.Controllers
                     m.Color,
                     m.Engine,
                     m.MotorcycleType.Name,
-                    m.Uploader.UserName
+                    m.Uploader.UserName,
+                    m.Warranty
                 ))
                 .ToListAsync();
 
@@ -131,6 +134,18 @@ namespace SurRon.Controllers
                 {
                     Id = m.Id,
                     Name = m.Name
+                })
+                .ToListAsync();
+        }
+
+        private async Task<IEnumerable<InventoryTypeViewl>> GetItemTypes()
+        {
+            return await _data.Inventory
+                .AsNoTracking()
+                .Select(i => new InventoryTypeViewl()
+                {
+                    Id = i.Id,
+                    Name = i.Name
                 })
                 .ToListAsync();
         }
