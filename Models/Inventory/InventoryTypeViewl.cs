@@ -1,6 +1,6 @@
 ﻿namespace SurRon.Models.Inventory
 {
-    public class InventoryTypeViewl
+    public class InventoryTypeView
     {
         public int Id { get; set; }
 

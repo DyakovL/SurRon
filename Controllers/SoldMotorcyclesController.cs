@@ -115,11 +115,14 @@ namespace SurRon.Controllers
             return RedirectToAction(nameof(All));
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> SellItem()
-        //{
+        [HttpGet]
+        public async Task<IActionResult> SellItem()
+        {
+            var model = new SellItemFormViewModel();
+            model.InventoryItems = await GetItemTypes();
 
-        //}
+            return View(model);
+        }
 
         private string GetUserId()
         {
@@ -138,11 +141,11 @@ namespace SurRon.Controllers
                 .ToListAsync();
         }
 
-        private async Task<IEnumerable<InventoryTypeViewl>> GetItemTypes()
+        private async Task<IEnumerable<InventoryTypeView>> GetItemTypes()
         {
             return await _data.Inventory
                 .AsNoTracking()
-                .Select(i => new InventoryTypeViewl()
+                .Select(i => new InventoryTypeView()
                 {
                     Id = i.Id,
                     Name = i.Name
