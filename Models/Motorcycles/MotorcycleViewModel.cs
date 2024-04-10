@@ -1,9 +1,10 @@
-﻿using SurRon.Data;
+﻿using System.Collections;
+using SurRon.Data;
 using SurRon.Infrastructure.DataConstants;
 
 namespace SurRon.Models.Motorcycles
 {
-    public class MotorcycleViewModel
+    public class MotorcycleViewModel : IEnumerable
     {
 
         public MotorcycleViewModel(
@@ -33,5 +34,9 @@ namespace SurRon.Models.Motorcycles
         public string MotorcycleType { get; set; }
 
         public string Uploader { get; set; }
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

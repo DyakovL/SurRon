@@ -1,45 +1,22 @@
 ﻿@using Microsoft.AspNetCore.Mvc.TagHelpers;
 @using Microsoft.AspNetCore.Http.Features
+@using SurRon.Models.SoldMotorcycles
 @model SurRon.Models.SoldMotorcycles.SellItemFormViewModel
 
 @{
     ViewBag.Title = "Sell Item To Customer";
+    List<SellItemFormViewModel> items = new List<SellItemFormViewModel>();
 }
 
 <h2 class="text-center">@ViewBag.Title</h2>
 <hr />
 
 <script>
-    var itemList = [];
-
-    function addItemToList() {
-
-        var itemName = document.getElementById('itemName').value;
-        var itemAmount = document.getElementById('itemAmount').value;
-        var itemPrice = document.getElementById('itemPrice').value;
-        
-        var newItem = {
-            name: itemName,
-            amount: itemAmount,
-            price: itemPrice
-        };
-        
-        itemList.push(newItem);
-        
-        displayItemList();
-    }
-
-    function displayItemList() {
-        var listContainer = document.getElementById('itemList');
-        listContainer.innerHTML = '';
-        
-        itemList.forEach(function (item) {
-            var listItem = document.createElement('li');
-            listItem.textContent = item.name + ' - Amount: ' + item.amount + ', Price: ' + item.price;
-            listContainer.appendChild(listItem);
-        });
+    function addItems() {
+        var item = document.
     }
 </script>
+
 <div class="row">
     <div class="col-sm-12 offset-lg-2 col-lg-8 offset-xl-3 col-xl-6">
         <form asp-action="SellItem" method="post">
@@ -48,7 +25,7 @@
                 <input asp-for="@Model.SoldOn" class="form-control" />
                 <span asp-validation-for="@Model.SoldOn" class="text-danger"></span>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" id="itemName">
                 <label asp-for="@Model.InventoryItemId" class="form-label-add-edit">Select Inventory Item</label>
                 <select asp-for="@Model.InventoryItemId" class="form-control" aria-required="true">
                     <option disabled selected value="">Select Inventory Item...</option>
@@ -59,18 +36,18 @@
                 </select>
                 <span asp-validation-for="@Model.InventoryItemId" class="text-danger"></span>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" id="itemAmount">
                 <label asp-for="@Model.Amount" class="form-label-add-edit">Amount</label>
                 <input asp-for="@Model.Amount" class="form-control" aria-required="true" />
                 <span asp-validation-for="@Model.Amount" class="text-danger"></span>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" id="itemPrice">
                 <label asp-for="@Model.Price" class="form-label-add-edit">Price</label>
                 <input asp-for="@Model.Price" class="form-control" aria-required="true" />
                 <span asp-validation-for="@Model.Price" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <button type="button" onclick="addItemToList()" class="btn btn-primary">Add Item to List</button>
+                <button type="button" onclick="addItems" class="btn btn-primary">Add Item to List</button>
             </div>
         </form>
     </div>

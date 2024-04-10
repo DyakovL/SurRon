@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Tk9FtCDeHs4X2dQ5tqqy5mLlJ20io4OwxqERMarjl0=",
+  "Hash": "O4oadai5qs5rUVAwLk4mcgbwhWWzOhTOwpKcE8XVyBw=",
   "Source": "SurRon",
   "BasePath": "_content/SurRon",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "D:\\C# WEB\\SurRon\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SurRon.bundle.scp.css"
     },
     {
+      "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\css\\HomePage.css",
+      "SourceId": "SurRon",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# WEB\\SurRon\\wwwroot\\",
+      "BasePath": "_content/SurRon",
+      "RelativePath": "css/HomePage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\HomePage.css"
+    },
+    {
       "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\css\\HomeView.css",
       "SourceId": "SurRon",
       "SourceType": "Discovered",
@@ -1212,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HomeView.css"
+    },
+    {
+      "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.cs",
+      "SourceId": "SurRon",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# WEB\\SurRon\\wwwroot\\",
+      "BasePath": "_content/SurRon",
+      "RelativePath": "css/LoginView.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginView.cs"
     },
     {
       "Identity": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.css",
