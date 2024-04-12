@@ -23,6 +23,7 @@ namespace SurRon.Models.Events
 
         [Required]
         [DataType(DataType.DateTime)]
+        [RegularExpression(DateFormat, ErrorMessage = DateFormatError)]
         public DateTime Date { get; set; }
 
         [Required]
