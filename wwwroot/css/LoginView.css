@@ -1,8 +1,20 @@
 ﻿body {
     background: black;
+}
 
+h1, h2, h3, p {
+    color: yellow
+}
+
+.form-floating {
+    color: black;
+    font-weight: bolder;
+}
+
+.checkbox {
+    color: yellow
 }
 
 #navbar a, li, button {
-    color: white;
+    color: yellow;
 }

@@ -13,5 +13,9 @@ namespace SurRon.Models.Inventory
             MinimumLength = NameMinLength,
             ErrorMessage = LengthDataError)]
         public string Name { get; set; } = string.Empty;
+
+        public int Amount { get; set; }
+
+        public decimal Price { get; set; }
     }
 }

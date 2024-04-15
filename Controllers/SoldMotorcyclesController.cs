@@ -77,6 +77,7 @@ namespace SurRon.Controllers
         public async Task<IActionResult> Add()
         {
             var model = new SoldMotorcycleFormViewModel();
+            model.DateSold = DateTime.Today;
             model.MotorcycleType = await GetMotorcycleTypes();
 
             return View(model);
@@ -119,6 +120,7 @@ namespace SurRon.Controllers
         public async Task<IActionResult> SellItem()
         {
             var model = new SellItemFormViewModel();
+            model.SoldOn = DateTime.Today;
             model.InventoryItems = await GetItemTypes();
 
             return View(model);

@@ -176,7 +176,7 @@ namespace SurRon.Controllers
                 {
                     Id = id,
                     Name = "",
-                    DateTime = DateTime.Now,
+                    DateTime = DateTime.Today,
                     Address = "",
                     City = "",
                     Country = "",

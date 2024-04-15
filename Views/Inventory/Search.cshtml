@@ -21,17 +21,14 @@
     {
         <div class="card col-4" style="width: 20rem">
             <div class="card-body">
+                <img class="card-img-top" src=@m.ImageUrl alt="Inventory Image"/>
                 <h5 class="card-title mt-1">@m.Name</h5>
                 <h6 class="card-title mt-1">Amount: @m.Amount</h6>
                 <h6 class="card-title mt-1"> Price: @m.Price</h6>
             </div>
             <a asp-controller="Inventory" asp-action="Edit" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Edit</a>
-            <a asp-controller="Inventory" asp-action="Sell" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Sell</a>
             <a asp-controller="Inventory" asp-action="Delete" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Delete</a>
         </div>
-
-
-
     }
 </div>
 

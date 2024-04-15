@@ -40,7 +40,7 @@ namespace SurRon.Controllers
         public async Task<IActionResult> Add()
         {
             var model = new EventFormViewModel();
-
+            model.Date = DateTime.Today;
             return View(model);
         }
 

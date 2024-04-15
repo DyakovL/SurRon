@@ -26,7 +26,8 @@ namespace SurRon.Controllers
                     i.Id,
                     i.Name,
                     i.Price,
-                    i.Amount
+                    i.Amount,
+                    i.ImageUrl
                 ))
                 .ToListAsync();
 
@@ -48,7 +49,8 @@ namespace SurRon.Controllers
             {
                 Name = model.Name,
                 Price = model.Price,
-                Amount = model.Amount
+                Amount = model.Amount,
+                ImageUrl = model.ImageUrl
             };
 
             await _data.Inventory.AddAsync(entity);
@@ -67,7 +69,8 @@ namespace SurRon.Controllers
                     i.Id,
                     i.Name,
                     i.Price,
-                    i.Amount
+                    i.Amount,
+                    i.ImageUrl
                 ))
                 .ToListAsync();
 
@@ -94,7 +97,8 @@ namespace SurRon.Controllers
             {
                 Name = e.Name,
                 Amount = e.Amount,
-                Price = e.Price
+                Price = e.Price,
+                ImageUrl = e.ImageUrl
             };
             
             return View(model);
@@ -114,6 +118,7 @@ namespace SurRon.Controllers
             e.Name = model.Name;
             e.Price = model.Price;
             e.Amount = model.Amount;
+            e.ImageUrl = model.ImageUrl;
 
             await _data.SaveChangesAsync();
 

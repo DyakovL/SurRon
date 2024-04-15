@@ -11,12 +11,6 @@
 <h2 class="text-center">@ViewBag.Title</h2>
 <hr />
 
-<script>
-    function addItems() {
-        var item = document.
-    }
-</script>
-
 <div class="row">
     <div class="col-sm-12 offset-lg-2 col-lg-8 offset-xl-3 col-xl-6">
         <form asp-action="SellItem" method="post">
@@ -31,18 +25,18 @@
                     <option disabled selected value="">Select Inventory Item...</option>
                     @foreach (var category in Model.InventoryItems)
                     {
-                        <option value="@category.Id">@category.Name</option>
+                        <option value="@category.Id" id="itemName">@category.Name</option>
                     }
                 </select>
                 <span asp-validation-for="@Model.InventoryItemId" class="text-danger"></span>
             </div>
             <div class="mb-3" id="itemAmount">
-                <label asp-for="@Model.Amount" class="form-label-add-edit">Amount</label>
+                <label asp-for="@Model.Amount" class="form-label-add-edit" id="itemAmount">Amount</label>
                 <input asp-for="@Model.Amount" class="form-control" aria-required="true" />
                 <span asp-validation-for="@Model.Amount" class="text-danger"></span>
             </div>
             <div class="mb-3" id="itemPrice">
-                <label asp-for="@Model.Price" class="form-label-add-edit">Price</label>
+                <label asp-for="@Model.Price" class="form-label-add-edit" id="itemPrice">Price</label>
                 <input asp-for="@Model.Price" class="form-control" aria-required="true" />
                 <span asp-validation-for="@Model.Price" class="text-danger"></span>
             </div>
