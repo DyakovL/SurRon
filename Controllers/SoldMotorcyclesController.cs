@@ -1,16 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SurRon.Core.Models.Inventory;
+using SurRon.Core.Models.MotorcycleTypes;
+using SurRon.Core.Models.SoldMotorcycles;
 using SurRon.Infrastructure.Data;
-using SurRon.Models.Motorcycles;
-using SurRon.Models.MotorcycleTypes;
-using SurRon.Models.SoldMotorcycles;
-using System.Security.Claims;
 using SurRon.Infrastructure.Data.Models;
-using SurRon.Models.Inventory;
+using System.Security.Claims;
 
 namespace SurRon.Controllers
 {
-    public class SoldMotorcyclesController : Controller
+    public class SoldMotorcyclesController : BaseController
     {
         private readonly SurRonDbContext _data;
 

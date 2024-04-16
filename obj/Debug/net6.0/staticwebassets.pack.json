@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\SurRon.bundle.scp.css"
     },
     {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\Media\\Pictures\\Error404.webp",
+      "PackagePath": "staticwebassets\\Media\\Pictures\\Error404.webp"
+    },
+    {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\Media\\Pictures\\Error500.png",
+      "PackagePath": "staticwebassets\\Media\\Pictures\\Error500.png"
+    },
+    {
+      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\Media\\Pictures\\Error500.webp",
+      "PackagePath": "staticwebassets\\Media\\Pictures\\Error500.webp"
+    },
+    {
       "Id": "D:\\C# WEB\\SurRon\\wwwroot\\Media\\Videos\\PromoVid_SemiOfficial.mp4",
       "PackagePath": "staticwebassets\\Media\\Videos\\PromoVid_SemiOfficial.mp4"
     },
@@ -19,10 +31,6 @@
     {
       "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\HomeView.css",
       "PackagePath": "staticwebassets\\css\\HomeView.css"
-    },
-    {
-      "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.cs",
-      "PackagePath": "staticwebassets\\css\\LoginView.cs"
     },
     {
       "Id": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.css",

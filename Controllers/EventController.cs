@@ -1,15 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SurRon.Data;
 using SurRon.Infrastructure.Data;
-using SurRon.Models.Events;
-using System.Security.Claims;
 using SurRon.Infrastructure.Data.Models;
-using SurRon.Models.Motorcycles;
+using SurRon.Core.Models.Events;
+using System.Security.Claims;
 
 namespace SurRon.Controllers
 {
-    public class EventController : Controller
+    public class EventController : BaseController
     {
         private readonly SurRonDbContext _data;
 
