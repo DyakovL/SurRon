@@ -289,3 +289,4 @@ D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Infrastructure.dll
 D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Core.pdb
 D:\C# WEB\SurRon\bin\Debug\net6.0\SurRon.Infrastructure.pdb
 D:\C# WEB\SurRon\obj\Debug\net6.0\SurRon.csproj.Up2Date
+D:\C# WEB\SurRon\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

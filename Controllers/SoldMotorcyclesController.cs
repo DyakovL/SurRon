@@ -7,7 +7,7 @@ using SurRon.Infrastructure.Data;
 using SurRon.Infrastructure.Data.Models;
 using System.Security.Claims;
 
-namespace SurRon.Controllers
+namespace SurRon.Areas.Admin.Controllers
 {
     public class SoldMotorcyclesController : BaseController
     {

@@ -18,6 +18,142 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\C# WEB\SurRon
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Event/Joined.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcSm9pbmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Home/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxFcnJvcjQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Home/Error500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxFcnJvcjUwMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Inventory/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3J5XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Inventory/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3J5XEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Inventory/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3J5XFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Error400.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxFcnJvcjQwMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxFcnJvcjQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Error500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxFcnJvcjUwMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Motorcycle/Sell.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW90b3JjeWNsZVxTZWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Shared/_NavItemsAfterLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9OYXZJdGVtc0FmdGVyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/SoldMotorcycles/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29sZE1vdG9yY3ljbGVzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/SoldMotorcycles/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29sZE1vdG9yY3ljbGVzXEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/SoldMotorcycles/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29sZE1vdG9yY3ljbGVzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/SoldMotorcycles/SellItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29sZE1vdG9yY3ljbGVzXFNlbGxJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/SoldMotorcycles/Warranty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29sZE1vdG9yY3ljbGVzXFdhcnJhbnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\# WEB/SurRon/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +254,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\# WEB/SurRon/Views/Motorcycle/Error400.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxFcnJvcjQwMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Motorcycle/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxFcnJvcjQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Views/Motorcycle/Error500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxFcnJvcjUwMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\# WEB/SurRon/Views/Motorcycle/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3JjeWNsZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -169,6 +317,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/C\# WEB/SurRon/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# WEB/SurRon/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-01ed671bkw
 
 [D:/C\# WEB/SurRon/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

@@ -1,0 +1,86 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers;
+@model SurRon.Core.Models.SoldMotorcycles.SoldMotorcycleFormViewModel
+
+@{
+    ViewBag.Title = "Add Sold Motorcycle";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="row">
+    <div class="col-sm-12 offset-lg-2 col-lg-8 offset-xl-3 col-xl-6">
+        <form asp-action="Add" method="post">
+            <div class="mb-3">
+                <label asp-for="@Model.Name" class="form-label-add-edit">Name</label>
+                <input asp-for="@Model.Name" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Vin" class="form-label-add-edit">Vin</label>
+                <input asp-for="@Model.Vin" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Vin" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Engine" class="form-label-add-edit">Vin</label>
+                <input asp-for="@Model.Vin" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Vin" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.DateSold" class="control-label">Date Sold</label>
+                <input asp-for="@Model.DateSold" class="form-control" />
+                <span asp-validation-for="@Model.DateSold" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Address" class="form-label-add-edit">Address</label>
+                <input asp-for="@Model.Address" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
+            </div><div class="mb-3">
+                <label asp-for="@Model.City" class="form-label-add-edit">City</label>
+                <input asp-for="@Model.City" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.City" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Country" class="form-label-add-edit">Country</label>
+                <input asp-for="@Model.Country" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Country" class="text-danger"></span>
+            </div><div class="mb-3">
+                <label asp-for="@Model.Vin" class="form-label-add-edit">Vin</label>
+                <input asp-for="@Model.Vin" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Vin" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Engine" class="form-label-add-edit">Engine</label>
+                <input asp-for="@Model.Engine" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Engine" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.Color" class="form-label-add-edit">Color</label>
+                <input asp-for="@Model.Color" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Color" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.MotorcycleTypeId" class="form-label-add-edit">Select Motorcycle Type</label>
+                <select asp-for="@Model.MotorcycleTypeId" class="form-control" aria-required="true">
+                    <option disabled selected value="">Select Motorcycle Type...</option>
+                    @foreach (var category in Model.MotorcycleType)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="@Model.MotorcycleTypeId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <form class="input-group-sm" asp-controller="SoldMotorcycles" asp-action="Add" asp-route-id="@Model.Id">
+                    <input type="submit" value="Subscribe" class="fs-6 btn btn-warning mb-2 w-100 p-3 fw-bold" />
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+<link href="@Url.Content("~/css/StyleForAllViews.css")" rel="stylesheet" type="text/css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

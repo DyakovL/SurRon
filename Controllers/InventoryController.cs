@@ -6,7 +6,7 @@ using SurRon.Infrastructure.Data.Models;
 
 namespace SurRon.Controllers
 {
-    public class InventoryController : BaseController
+    public class InventoryController : AdminBaseController
     {
 
         private readonly SurRonDbContext _data;

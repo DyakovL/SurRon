@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers;
+@using Microsoft.AspNetCore.Http.Features
+@using SurRon.Core.Models.SoldMotorcycles
+@model SurRon.Core.Models.SoldMotorcycles.SellItemFormViewModel
+
+@{
+    ViewBag.Title = "Sell Item To Customer";
+    List<SellItemFormViewModel> items = new List<SellItemFormViewModel>();
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="row">
+    <div class="col-sm-12 offset-lg-2 col-lg-8 offset-xl-3 col-xl-6">
+        <form asp-action="SellItem" method="post">
+            <div class="mb-3">
+                <label asp-for="@Model.SoldOn.Date" class="control-label">Date Sold</label>
+                <input asp-for="@Model.SoldOn" class="form-control" />
+                <span asp-validation-for="@Model.SoldOn" class="text-danger"></span>
+            </div>
+            <div class="mb-3" id="itemName">
+                <label asp-for="@Model.InventoryItemId" class="form-label-add-edit">Select Inventory Item</label>
+                <select asp-for="@Model.InventoryItemId" class="form-control" aria-required="true">
+                    <option disabled selected value="">Select Inventory Item...</option>
+                    @foreach (var category in Model.InventoryItems)
+                    {
+                        <option value="@category.Id" id="itemName">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="@Model.InventoryItemId" class="text-danger"></span>
+            </div>
+            <div class="mb-3" id="itemAmount">
+                <label asp-for="@Model.Amount" class="form-label-add-edit" id="itemAmount">Amount</label>
+                <input asp-for="@Model.Amount" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Amount" class="text-danger"></span>
+            </div>
+            <div class="mb-3" id="itemPrice">
+                <label asp-for="@Model.Price" class="form-label-add-edit" id="itemPrice">Price</label>
+                <input asp-for="@Model.Price" class="form-control" aria-required="true" />
+                <span asp-validation-for="@Model.Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <button type="button" onclick="addItems" class="btn btn-primary">Add Item to List</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr/>
+
+<div class="mb-3">
+    <label>List of Items</label>
+    <ul id="itemList"></ul>
+</div>
+
+<div class="mb-3">
+    <form class="input-group-sm" asp-controller="SoldMotorcycles" asp-action="SellItem" asp-route-id="@Model.Id">
+        <input type="submit" value="Add To History" class="fs-6 btn btn-warning mb-2 w-100 p-3 fw-bold" />
+    </form>
+</div>
+
+
+<link href="@Url.Content("~/css/StyleForAllViews.css")" rel="stylesheet" type="text/css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

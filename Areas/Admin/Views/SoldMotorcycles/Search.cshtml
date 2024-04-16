@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<SurRon.Core.Models.SoldMotorcycles.SoldMotorcyclesViewModel>
+@using Microsoft.CodeAnalysis.Scripting
+
+@{
+    ViewBag.Title = "All Motorcycles";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<form asp-controller="SoldMotorcycles" asp-action="Search" method="get">
+    <p style="padding-bottom: 2rem; padding-top: 1rem; color: yellow">
+        <input style="background: black; border-color: yellow; color: white" type="text" name="searchString" placeholder="Search by VIN" />
+        <input style="background: yellow; font-weight: bold" type="submit" value="Search" />
+    </p>
+</form>
+
+<div class="text-center row">
+    @foreach (var m in Model)
+    {
+        <div class="card col-4" style="width: 20rem">
+            <div class="card-body">
+                <h5 class="card-title mt-1">@m.MotorcycleType</h5>
+                <h6 class="card-title mt-1">@m.Name</h6>
+                <h6 class="card-title mt-1">@m.City</h6>
+                <h6 class="card-title mt-1">@m.Vin</h6>
+            </div>
+            <a asp-controller="SoldMotorcycles" asp-action="SoldItem" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Sell Item</a>
+            <a asp-controller="SoldMotorcycles" asp-action="ViewHistory" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">History</a>
+            <a asp-controller="SoldMotorcycles" asp-action="Warranty" asp-route-id="@m.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Warranty</a>
+        </div>
+    }
+</div>
+
+<link href="@Url.Content("~/css/StyleForAllViews.css")" rel="stylesheet" type="text/css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
