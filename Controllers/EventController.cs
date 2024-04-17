@@ -4,6 +4,7 @@ using SurRon.Infrastructure.Data;
 using SurRon.Infrastructure.Data.Models;
 using SurRon.Core.Models.Events;
 using System.Security.Claims;
+using static SurRon.Infrastructure.DataConstants.EventConstants;
 
 namespace SurRon.Controllers
 {
@@ -39,7 +40,7 @@ namespace SurRon.Controllers
         {
             var model = new EventFormViewModel
             {
-                Date = DateTime.Today
+                Date = DateTime.Now
             };
             return View(model);
         }
@@ -53,7 +54,7 @@ namespace SurRon.Controllers
                 Location = model.Location,
                 Description = model.Description,
                 OrganizerId = GetUserId(),
-                Date = DateTime.Now
+                Date = model.Date
             };
 
             await _data.Events.AddAsync(entity);
