@@ -10,6 +10,9 @@
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\events\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -24,9 +27,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\events\\eventdeletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\events\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -402,26 +402,27 @@
               "RelativeDocumentMoniker": "..\\SurRon.UnitTests\\EventTests.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.UnitTests\\EventTests.cs",
               "RelativeToolTip": "..\\SurRon.UnitTests\\EventTests.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAcwGcAAAA3AAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAIUAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:24:59.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "EventViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
               "RelativeToolTip": "..\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:36:59.395Z"
+              "WhenOpened": "2024-04-15T20:36:59.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EventDeleteModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventDeleteModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventDeleteModel.cs",
@@ -433,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "All.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\All.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\All.cshtml",
@@ -441,8 +442,7 @@
               "RelativeToolTip": "Views\\Event\\All.cshtml",
               "ViewState": "AQIAAAQAAAAAAAAAAAAgwA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T19:10:01.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T19:10:01.61Z"
             },
             {
               "$type": "Document",
@@ -1284,7 +1284,7 @@
         "Y": 131,
         "Width": 1535,
         "Height": 742,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -1330,7 +1330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EventConstants.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\DataConstants\\EventConstants.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\DataConstants\\EventConstants.cs",
@@ -1348,7 +1348,7 @@
               "RelativeDocumentMoniker": "Controllers\\EventController.cs",
               "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\EventController.cs",
               "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AQIAAAkBAAAAAAAAAAAcwCEAAAAAAAAA",
+              "ViewState": "AQIAAPIAAAAAAAAAAAAUwG8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T08:12:42.742Z",
               "EditorCaption": ""
@@ -1367,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EventFormViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventFormViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventFormViewModel.cs",
@@ -1391,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\Event.cs",

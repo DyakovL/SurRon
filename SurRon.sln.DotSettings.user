@@ -18,5 +18,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::9612C252-BB63-445F-88F6-BAAC6D73214C::net6.0::SurRon.UnitTests.EventTests.Test_AddEvent&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::9612C252-BB63-445F-88F6-BAAC6D73214C::net6.0::SurRon.UnitTests.EventTests.Test_GetAllEvents&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::9612C252-BB63-445F-88F6-BAAC6D73214C::net6.0::SurRon.UnitTests.EventTests.Test_DeleteEvent&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
