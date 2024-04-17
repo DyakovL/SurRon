@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SurRon.Controllers;
 using SurRon.Core.Models.Inventory;
 using SurRon.Core.Models.MotorcycleTypes;
 using SurRon.Core.Models.SoldMotorcycles;
@@ -7,7 +8,7 @@ using SurRon.Infrastructure.Data;
 using SurRon.Infrastructure.Data.Models;
 using System.Security.Claims;
 
-namespace SurRon.Areas.Admin.Controllers
+namespace SurRon.Controllers
 {
     public class SoldMotorcyclesController : BaseController
     {
@@ -75,9 +76,11 @@ namespace SurRon.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Add()
         {
-            var model = new SoldMotorcycleFormViewModel();
-            model.DateSold = DateTime.Today;
-            model.MotorcycleType = await GetMotorcycleTypes();
+            var model = new SoldMotorcycleFormViewModel
+            {
+                DateSold = DateTime.Today,
+                MotorcycleType = await GetMotorcycleTypes()
+            };
 
             return View(model);
         }
@@ -118,9 +121,11 @@ namespace SurRon.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> SellItem()
         {
-            var model = new SellItemFormViewModel();
-            model.SoldOn = DateTime.Today;
-            model.InventoryItems = await GetItemTypes();
+            var model = new SellItemFormViewModel
+            {
+                SoldOn = DateTime.Today,
+                InventoryItems = await GetItemTypes()
+            };
 
             return View(model);
         }

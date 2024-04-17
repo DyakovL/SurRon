@@ -9,7 +9,7 @@ using System.Security.Claims;
 
 namespace SurRon.Controllers
 {
-    public class MotorcycleController : AdminBaseController
+    public class MotorcycleController : BaseController
     {
         private readonly SurRonDbContext _data;
 
@@ -39,8 +39,10 @@ namespace SurRon.Controllers
         [HttpGet]
         public async Task<IActionResult> Add()
         {
-            var model = new MotorcycleFormViewModel();
-            model.MotorcycleType = await GetMotorcycleTypes();
+            var model = new MotorcycleFormViewModel
+            {
+                MotorcycleType = await GetMotorcycleTypes()
+            };
 
             return View(model);
         }

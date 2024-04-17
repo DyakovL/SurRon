@@ -3,43 +3,46 @@
   "WorkspaceRootPath": "D:\\C# WEB\\SurRon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DBE4F0A-E7D8-4003-B3A3-C1DA417D9D38}|..\\SurronTests\\SurronTests.csproj|d:\\c# web\\surrontests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9612C252-BB63-445F-88F6-BAAC6D73214C}|..\\SurRon.UnitTests\\SurRon.UnitTests.csproj|d:\\c# web\\surron.unittests\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\adminbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\adminbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\areas\\admin\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:areas\\admin\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F879ACFB-7FB0-4C5D-939D-04810B672A42}|..\\SurRon.Infrastructure\\SurRon.Infrastructure.csproj|d:\\c# web\\surron.infrastructure\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9612C252-BB63-445F-88F6-BAAC6D73214C}|..\\SurRon.UnitTests\\SurRon.UnitTests.csproj|d:\\c# web\\surron.unittests\\surron.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9612C252-BB63-445F-88F6-BAAC6D73214C}|..\\SurRon.UnitTests\\SurRon.UnitTests.csproj|d:\\c# web\\surron.unittests\\eventtests||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\inventory\\inventoryformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\constants\\administratorconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\soldmotorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -72,9 +75,6 @@
       "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\inventory\\inventorytypeviewl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\inventory\\inventoryformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\models\\events\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -93,13 +93,6 @@
       "AbsoluteMoniker": "D:0:0:{F879ACFB-7FB0-4C5D-939D-04810B672A42}|..\\SurRon.Infrastructure\\SurRon.Infrastructure.csproj|d:\\c# web\\surron.infrastructure\\dataconstants\\motorcycleconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DDA90F5-F12E-4691-8E15-811BCCFEB368}|..\\SurRon.Core\\SurRon.Core.csproj|d:\\c# web\\surron.core\\constants\\administratorconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -109,14 +102,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\views\\home\\error404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:views\\home\\error404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85DAB80D-B1D7-4377-8773-10B80AB41715}|SurRon.csproj|d:\\c# web\\surron\\views\\home\\error500.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -283,9 +268,6 @@
       "AbsoluteMoniker": "D:0:0:{F879ACFB-7FB0-4C5D-939D-04810B672A42}|..\\SurRon.Infrastructure\\SurRon.Infrastructure.csproj|d:\\c# web\\surron.infrastructure\\data\\models\\eventparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F879ACFB-7FB0-4C5D-939D-04810B672A42}|..\\SurRon.Infrastructure\\SurRon.Infrastructure.csproj|d:\\c# web\\surron.infrastructure\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F879ACFB-7FB0-4C5D-939D-04810B672A42}|..\\SurRon.Infrastructure\\SurRon.Infrastructure.csproj|d:\\c# web\\surron.infrastructure\\migrations\\20240331175432_addedboolproptosoldmotorcycles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -334,167 +316,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SurRon.UnitTests",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.UnitTests\\SurRon.UnitTests.csproj",
+              "RelativeDocumentMoniker": "..\\SurRon.UnitTests\\SurRon.UnitTests.csproj",
+              "ToolTip": "D:\\C# WEB\\SurRon.UnitTests\\SurRon.UnitTests.csproj",
+              "RelativeToolTip": "..\\SurRon.UnitTests\\SurRon.UnitTests.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T16:31:06.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurronTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\SurronTests\\UnitTest1.cs",
-              "ToolTip": "D:\\C# WEB\\SurronTests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\SurronTests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EventTests.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.UnitTests\\EventTests.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.UnitTests\\EventTests.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.UnitTests\\EventTests.cs",
+              "RelativeToolTip": "..\\SurRon.UnitTests\\EventTests.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T21:17:07.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SoldMotorcyclesController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\SoldMotorcyclesController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SoldMotorcyclesController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\SoldMotorcyclesController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\SoldMotorcyclesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:58:19.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MotorcycleController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\MotorcycleController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MotorcycleController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\MotorcycleController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\MotorcycleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:58:16.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\InventoryController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\InventoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:58:13.137Z",
+              "WhenOpened": "2024-04-17T16:24:59.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:58:00.601Z",
+              "Title": "EventTests",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.UnitTests\\EventTests",
+              "RelativeDocumentMoniker": "..\\SurRon.UnitTests\\EventTests",
+              "ToolTip": "D:\\C# WEB\\SurRon.UnitTests\\EventTests",
+              "RelativeToolTip": "..\\SurRon.UnitTests\\EventTests",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-17T16:21:59.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\EventController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:56:18.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SoldMotorcycleFormViewModel.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:37:58.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminBaseController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\AdminBaseController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\AdminBaseController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Areas\\Admin\\Controllers\\AdminBaseController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\AdminBaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:26:53.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "SoldMotorcyclesController.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\SoldMotorcyclesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SoldMotorcyclesController.cs",
               "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\SoldMotorcyclesController.cs",
               "RelativeToolTip": "Controllers\\SoldMotorcyclesController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAhwBgAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T21:55:04.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SellItemFormViewModel.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:37:38.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MotorcycleTypeView.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:37:34.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SoldMotorcyclesViewModel.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:38:05.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:48:08.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T16:09:36.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:12:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T21:25:53.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdministratorConstants.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Constants\\AdministratorConstants.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Constants\\AdministratorConstants.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Constants\\AdministratorConstants.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Constants\\AdministratorConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:48:07.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryFormViewModel.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:37:06.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\ErrorViewModel.cs",
@@ -507,33 +467,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "Controllers\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "SoldMotorcyclesViewModel.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcyclesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T18:48:08.779Z",
+              "WhenOpened": "2024-04-15T20:38:05.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "SoldMotorcycleFormViewModel.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SoldMotorcycleFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:12:42.742Z",
+              "WhenOpened": "2024-04-15T20:37:58.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "SellItemFormViewModel.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Models\\SoldMotorcycles\\SellItemFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:37:38.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MotorcycleTypeView.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
+              "RelativeToolTip": "..\\SurRon.Core\\Models\\MotorcycleTypes\\MotorcycleTypeView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:37:34.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MotorcycleViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Motorcycles\\MotorcycleViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Motorcycles\\MotorcycleViewModel.cs",
@@ -546,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MotorcycleSellViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Motorcycles\\MotorcycleSellViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Motorcycles\\MotorcycleSellViewModel.cs",
@@ -559,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "MotorcycleFormViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Motorcycles\\MotorcycleFormViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Motorcycles\\MotorcycleFormViewModel.cs",
@@ -572,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "InventoryViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Inventory\\InventoryViewModel.cs",
@@ -585,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "InventoryTypeViewl.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryTypeViewl.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Inventory\\InventoryTypeViewl.cs",
@@ -598,20 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "InventoryFormViewModel.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Models\\Inventory\\InventoryFormViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:37:06.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "EventViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventViewModel.cs",
@@ -624,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EventDetailsModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventDetailsModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventDetailsModel.cs",
@@ -637,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "EventFormViewModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventFormViewModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventFormViewModel.cs",
@@ -650,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "EventDeleteModel.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Models\\Events\\EventDeleteModel.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Models\\Events\\EventDeleteModel.cs",
@@ -663,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ErrorMessages.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Constants\\ErrorMessages.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Core\\Constants\\ErrorMessages.cs",
@@ -676,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MotorcycleConstants.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\DataConstants\\MotorcycleConstants.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\DataConstants\\MotorcycleConstants.cs",
@@ -689,20 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AdministratorConstants.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Core\\Constants\\AdministratorConstants.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Core\\Constants\\AdministratorConstants.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Core\\Constants\\AdministratorConstants.cs",
-              "RelativeToolTip": "..\\SurRon.Core\\Constants\\AdministratorConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:48:07.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -715,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Error404.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Home\\Error404.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Error404.cshtml",
@@ -728,20 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwBwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T21:25:53.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "Error500.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Home\\Error500.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Error500.cshtml",
@@ -754,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 34,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -767,20 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "Controllers\\InventoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T16:09:36.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 35,
               "Title": "All.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Inventory\\All.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\All.cshtml",
@@ -793,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -806,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 37,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -819,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 40,
               "Title": "Search.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\SoldMotorcycles\\Search.cshtml",
               "RelativeDocumentMoniker": "Views\\SoldMotorcycles\\Search.cshtml",
@@ -832,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 42,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -845,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 43,
               "Title": "Sell.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Motorcycle\\Sell.cshtml",
               "RelativeDocumentMoniker": "Views\\Motorcycle\\Sell.cshtml",
@@ -858,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 44,
               "Title": "Search.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Motorcycle\\Search.cshtml",
               "RelativeDocumentMoniker": "Views\\Motorcycle\\Search.cshtml",
@@ -871,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 45,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Motorcycle\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Motorcycle\\Edit.cshtml",
@@ -884,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 47,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Motorcycle\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Motorcycle\\Add.cshtml",
@@ -897,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 49,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Inventory\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\Edit.cshtml",
@@ -910,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 50,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Inventory\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\Add.cshtml",
@@ -923,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 51,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Home\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Error.cshtml",
@@ -936,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 39,
               "Title": "SellItem.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\SoldMotorcycles\\SellItem.cshtml",
               "RelativeDocumentMoniker": "Views\\SoldMotorcycles\\SellItem.cshtml",
@@ -949,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 38,
               "Title": "Warranty.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\SoldMotorcycles\\Warranty.cshtml",
               "RelativeDocumentMoniker": "Views\\SoldMotorcycles\\Warranty.cshtml",
@@ -962,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 52,
               "Title": "Joined.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\Joined.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\Joined.cshtml",
@@ -975,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 53,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\Edit.cshtml",
@@ -988,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 54,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\Details.cshtml",
@@ -1001,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 56,
               "Title": "All.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\All.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\All.cshtml",
@@ -1014,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 57,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\Add.cshtml",
@@ -1027,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 46,
               "Title": "All.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Motorcycle\\All.cshtml",
               "RelativeDocumentMoniker": "Views\\Motorcycle\\All.cshtml",
@@ -1040,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 48,
               "Title": "Search.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Inventory\\Search.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\Search.cshtml",
@@ -1053,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 55,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Event\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Event\\Delete.cshtml",
@@ -1066,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 59,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Common\\Repository.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Common\\Repository.cs",
@@ -1079,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 60,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Common\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Common\\IRepository.cs",
@@ -1092,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 62,
               "Title": "RegisterView.css",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\wwwroot\\css\\RegisterView.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\RegisterView.css",
@@ -1105,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 64,
               "Title": "LoginView.css",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\wwwroot\\css\\LoginView.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\LoginView.css",
@@ -1118,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 63,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -1131,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 61,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -1144,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 65,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1160,12 +1094,8 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 87,
               "Title": "20240413193020_AddedImageToInventory.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240413193020_AddedImageToInventory.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240413193020_AddedImageToInventory.cs",
@@ -1173,23 +1103,25 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240413193020_AddedImageToInventory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T19:30:20.281Z"
+              "WhenOpened": "2024-04-13T19:30:20.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 66,
               "Title": "History.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\History.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\History.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\History.cs",
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\History.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAASAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:27:11.299Z"
+              "WhenOpened": "2024-03-17T15:27:11.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 67,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Inventory.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\Inventory.cs",
@@ -1197,11 +1129,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\Inventory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T19:12:08.179Z"
+              "WhenOpened": "2024-04-10T19:12:08.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 73,
               "Title": "MotorcycleType.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\MotorcycleType.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\MotorcycleType.cs",
@@ -1209,11 +1142,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\MotorcycleType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:11:41.633Z"
+              "WhenOpened": "2024-04-10T08:11:41.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 74,
               "Title": "EventParticipant.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\EventParticipant.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\EventParticipant.cs",
@@ -1221,35 +1155,38 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\EventParticipant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:27:07.629Z"
+              "WhenOpened": "2024-03-17T15:27:07.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 72,
               "Title": "SellerMotorcycles.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\SellerMotorcycles.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\SellerMotorcycles.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\SellerMotorcycles.cs",
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\SellerMotorcycles.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:45:37.08Z"
+              "WhenOpened": "2024-03-17T15:45:37.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 71,
               "Title": "SoldMotorcycleHistory.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycleHistory.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycleHistory.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycleHistory.cs",
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycleHistory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T16:08:39.94Z"
+              "WhenOpened": "2024-03-17T16:08:39.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 70,
               "Title": "SoldMotorcycles.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycles.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycles.cs",
@@ -1257,23 +1194,25 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\SoldMotorcycles.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAwwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T17:52:21.303Z"
+              "WhenOpened": "2024-03-31T17:52:21.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 69,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\User.cs",
               "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\User.cs",
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\User.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAwAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:27:28.741Z"
+              "WhenOpened": "2024-03-17T15:27:28.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 68,
               "Title": "UserMotorcycles.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\UserMotorcycles.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\UserMotorcycles.cs",
@@ -1281,11 +1220,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\UserMotorcycles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:27:32.144Z"
+              "WhenOpened": "2024-03-17T15:27:32.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 75,
               "Title": "20240331175432_AddedBoolPropToSoldMotorcycles.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240331175432_AddedBoolPropToSoldMotorcycles.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240331175432_AddedBoolPropToSoldMotorcycles.cs",
@@ -1293,11 +1233,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240331175432_AddedBoolPropToSoldMotorcycles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T19:30:00.32Z"
+              "WhenOpened": "2024-03-31T19:30:00.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 76,
               "Title": "20240331160841_addedInventoryToDbTables.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240331160841_addedInventoryToDbTables.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240331160841_addedInventoryToDbTables.cs",
@@ -1305,23 +1246,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240331160841_addedInventoryToDbTables.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T19:30:00.344Z"
+              "WhenOpened": "2024-03-31T19:30:00.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
-              "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
-              "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:27:01.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 77,
               "Title": "20240322213319_updatedDb1.0.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240322213319_updatedDb1.0.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240322213319_updatedDb1.0.cs",
@@ -1329,11 +1259,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240322213319_updatedDb1.0.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T20:46:30.191Z"
+              "WhenOpened": "2024-03-23T20:46:30.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 78,
               "Title": "20240317220916_updateOnDatabase.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240317220916_updateOnDatabase.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240317220916_updateOnDatabase.cs",
@@ -1341,11 +1272,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240317220916_updateOnDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:11:34.4Z"
+              "WhenOpened": "2024-03-17T22:11:34.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 80,
               "Title": "20240310184654_AddedMotorcycleTypes.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240310184654_AddedMotorcycleTypes.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240310184654_AddedMotorcycleTypes.cs",
@@ -1353,11 +1285,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240310184654_AddedMotorcycleTypes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:47:27.07Z"
+              "WhenOpened": "2024-03-17T15:47:27.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 81,
               "Title": "20240304201651_UpdateDatabase.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240304201651_UpdateDatabase.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240304201651_UpdateDatabase.cs",
@@ -1365,11 +1298,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240304201651_UpdateDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T18:03:46.162Z"
+              "WhenOpened": "2024-03-08T18:03:46.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 82,
               "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
@@ -1377,11 +1311,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAArwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T20:15:53.22Z"
+              "WhenOpened": "2024-03-04T20:15:53.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 79,
               "Title": "20240310193946_LittleTweaksInsideTheDataBase.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240310193946_LittleTweaksInsideTheDataBase.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240310193946_LittleTweaksInsideTheDataBase.cs",
@@ -1389,11 +1324,12 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240310193946_LittleTweaksInsideTheDataBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:47:27.071Z"
+              "WhenOpened": "2024-03-17T15:47:27.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 84,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1401,33 +1337,36 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-04T19:41:58.562Z"
+              "WhenOpened": "2024-03-04T19:41:58.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 83,
               "Title": "StyleForAllViews.css",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\wwwroot\\css\\StyleForAllViews.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\StyleForAllViews.css",
               "ToolTip": "D:\\C# WEB\\SurRon\\wwwroot\\css\\StyleForAllViews.css",
               "RelativeToolTip": "wwwroot\\css\\StyleForAllViews.css",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAEAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBJwC0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-10T20:01:53.262Z"
+              "WhenOpened": "2024-03-10T20:01:53.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 85,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\lacho\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-SurRon-3fa5c527-0755-46b9-92fd-8ba2b9e15a73\\secrets.json",
               "ToolTip": "C:\\Users\\lacho\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-SurRon-3fa5c527-0755-46b9-92fd-8ba2b9e15a73\\secrets.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-14T21:52:29.958Z"
+              "WhenOpened": "2024-03-14T21:52:29.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 86,
               "Title": "20240225205032_InitialMigration.Designer.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Migrations\\20240225205032_InitialMigration.Designer.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Migrations\\20240225205032_InitialMigration.Designer.cs",
@@ -1435,7 +1374,8 @@
               "RelativeToolTip": "..\\SurRon.Infrastructure\\Migrations\\20240225205032_InitialMigration.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T20:16:04.251Z"
+              "WhenOpened": "2024-03-04T20:16:04.251Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -1456,24 +1396,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 3,
               "Title": "MotorcycleController.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Controllers\\MotorcycleController.cs",
               "RelativeDocumentMoniker": "Controllers\\MotorcycleController.cs",
               "ToolTip": "D:\\C# WEB\\SurRon\\Controllers\\MotorcycleController.cs",
               "RelativeToolTip": "Controllers\\MotorcycleController.cs",
-              "ViewState": "AQIAANkAAAAAAAAAAAAIwOgAAAAlAAAA",
+              "ViewState": "AQIAANcAAAAAAAAAAAAAAAsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T20:43:42.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 41,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\SoldMotorcycles\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\SoldMotorcycles\\Add.cshtml",
@@ -1486,7 +1426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 33,
               "Title": "All.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\SoldMotorcycles\\All.cshtml",
               "RelativeDocumentMoniker": "Views\\SoldMotorcycles\\All.cshtml",
@@ -1499,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "EventConstants.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\DataConstants\\EventConstants.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\DataConstants\\EventConstants.cs",
@@ -1512,7 +1452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 58,
               "Title": "Motorcycle.cs",
               "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Motorcycle.cs",
               "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\Motorcycle.cs",
@@ -1525,7 +1465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C# WEB\\SurRon\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -1534,6 +1474,19 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T21:26:59.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "..\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
+              "ToolTip": "D:\\C# WEB\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
+              "RelativeToolTip": "..\\SurRon.Infrastructure\\Data\\Models\\Event.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T15:27:01.187Z",
               "EditorCaption": ""
             }
           ]

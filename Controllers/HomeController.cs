@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace SurRon.Controllers
 {
-    public class HomeController : AdminBaseController
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 

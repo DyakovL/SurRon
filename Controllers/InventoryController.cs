@@ -6,7 +6,7 @@ using SurRon.Infrastructure.Data.Models;
 
 namespace SurRon.Controllers
 {
-    public class InventoryController : AdminBaseController
+    public class InventoryController : BaseController
     {
 
         private readonly SurRonDbContext _data;
@@ -34,7 +34,7 @@ namespace SurRon.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Add()
+        public IActionResult Add()
         {
             var model = new InventoryFormViewModel();
 
